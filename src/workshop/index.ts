@@ -16,7 +16,7 @@ import { setupOptions } from './setup';
 import { classify, dasherize, camelize, underscore } from '@angular-devkit/core/src/utils/strings';
 const stringUtils = {classify, dasherize, camelize, underscore };
 
-export function be(options: any): Rule {
+export function workshop(options: any): Rule {
   return (tree: Tree, _context: SchematicContext) => {
     setupOptions(tree, options);
 
