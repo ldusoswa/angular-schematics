@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "workshop": {
+      "description": "Description for my schematics",
+      "factory": "./workshop/index#workshop",
+      "schema": "./workshop/schema.json"
+    }
+  },
+  "extends": [
+    "@schematics/angular"
+  ]
+}
