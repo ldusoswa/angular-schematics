@@ -7,7 +7,7 @@
 5. Test your package using `yarn test`
 6. Link your package using `yarn link`
 
-##Consume the generator in your ui project
+## Consume the generator in your ui project
 7. in your ui-project, run `yarn add @workshop/schematics` 
 7. in your ui-project, run `yarn link @workshop/schematics` 
 8. You should now have a dependency in your node_modules, which is actually a symbolic link to the schematics repo
