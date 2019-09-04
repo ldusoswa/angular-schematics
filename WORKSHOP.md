@@ -2,7 +2,7 @@
 
 1. Clone `https://github.com/ldusoswa/angular-schematics`, then open the WORKSHOP.md file (this file)
 2. Laurence to talk through the various files in there and what they do, while you all run `yarn`
-3. run `@angular-devkit/schematics` to install the tools to build this generator
+3. run `yarn add @angular-devkit/schematics` to install the tools to build this generator
 4. Build your package using `yarn build`
 5. Test your package using `yarn test`
 6. Link your package using `yarn link`
