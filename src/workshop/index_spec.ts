@@ -33,7 +33,7 @@ describe('workshop', () => {
 
       testRunner.runSchematicAsync('workshop', {name: 'example thing'}, appTree).toPromise().then(tree => {
         const expectedFiles = [
-          '/projects/bar/src/app/things/example-thing.factory.ts',
+          '/projects/bar/src/app/example-thing.factory.ts',
         ];
 
         console.log(tree.files);
