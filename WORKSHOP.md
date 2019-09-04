@@ -21,8 +21,9 @@
 
 ## Out of scope for workshop
 Rename your package, and your generator. Packages can have multiple generators
-    - in your package.json, change `@workshop/schematics` to whatever you want.
-    - in `/src`, rename the folder called `workshop` to something. this is the name of the actual generator. you could call it `boilerplate`
-    - in index.spec.ts within your template's files, make sure you change `workshop` to whatever you called it in the step above
-    - in schema.json, you need to change the id 
-    - in collection.json, you also need to replace references to your generator's folder name and the actual generator name defined in your schema. It's advised to keep these the same
+    1. in your package.json, change `@workshop/schematics` to whatever you want.
+    2. in `/src`, rename the folder called `workshop` to something. this is the name of the actual generator. you could call it `boilerplate`
+    3. in index.spec.ts within your template's files, make sure you change `workshop` to whatever you called it in the step above
+    4. in schema.json, you need to change the id 
+    5. in collection.json, you also need to replace references to your generator's folder name and the actual generator name defined in your schema. It's advised to keep these the same
+    6. remember to update your JenkinsFile in this project
